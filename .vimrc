@@ -1,0 +1,2 @@
+" Colours
+set background=dark
