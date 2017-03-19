@@ -1,14 +1,24 @@
-set ruler         " show the cursor position all the time
+" Cursor position
+set ruler
 
 " Colors
-set termguicolors
 set background=dark
-colorscheme base16-darktooth
+color desert
 
 " Numbers
 set number
 set numberwidth=5
 
-" Make it obvious where 80 characters is
+" Line length
 set textwidth=80
 set colorcolumn=+1
+
+" Invisible characters
+set list
+set listchars=tab:··,trail:·,eol:¬
+
+" Disable arrow keys
+nnoremap <Left> :echoe "Use h"<CR>
+nnoremap <Right> :echoe "Use l"<CR>
+nnoremap <Up> :echoe "Use k"<CR>
+nnoremap <Down> :echoe "Use j"<CR>
