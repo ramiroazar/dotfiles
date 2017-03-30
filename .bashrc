@@ -19,3 +19,8 @@ export npm_config_prefix=~/.node_modules
 if [ "$TERM" == "st-256color" ]; then
     export TERM=xterm-256color
 fi
+
+# aliases
+
+alias suspend='systemctl suspend'
+alias vim='nvim'
