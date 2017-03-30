@@ -1,0 +1,3 @@
+xterm*background: black
+xterm*foreground: white
+xterm*faceName: mono:size=12
