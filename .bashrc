@@ -14,3 +14,8 @@ PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 # npm
 PATH="$HOME/.node_modules/bin:$PATH"
 export npm_config_prefix=~/.node_modules
+
+# aliases
+
+alias suspend='systemctl suspend'
+alias vim='nvim'
